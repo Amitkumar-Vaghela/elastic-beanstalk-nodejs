@@ -1,0 +1,12 @@
+{
+  "name": "elastic-beanstalk-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js application for AWS Elastic Beanstalk",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
