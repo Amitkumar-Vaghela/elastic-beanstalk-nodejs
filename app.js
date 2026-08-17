@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
                 </p>
 
                 <p>
-                    <strong>Status:</strong> 
+                    <strong>Status:</strong>
                     <span style="color: green;">Healthy</span>
                 </p>
             </body>
@@ -40,6 +40,4 @@ app.get("/health", (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-});git add .
-git commit -m "Create Node.js Elastic Beanstalk application"
-git push
+});
