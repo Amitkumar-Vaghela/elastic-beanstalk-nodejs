@@ -1,0 +1,20 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Node.js dependencies and local output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# AWS CLI installer and extracted files
+aws/
+awscliv2.zip
+
+# Local AWS/Elastic Beanstalk logs and command output
+tic-beanstalk-prod
+ec2 describe-route-tables \\
